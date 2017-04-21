@@ -1,5 +1,5 @@
 # MongoDB + ExpressJS + ReactJS
-Test app to apply MongoDB + ExpressJS + ReactJS.
+Test app to apply MongoDB + ExpressJS + ReactJS + Webpack
 
 This project focus on use of the follow stack: 
 
