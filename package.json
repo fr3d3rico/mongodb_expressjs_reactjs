@@ -1,0 +1,46 @@
+{
+  "name": "mongodb-expressjs-reactjs-app",
+  "version": "1.0.0",
+  "description": "Test app to apply MongoDB + ExpressJS + ReactJS",
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "expressjs",
+    "node",
+    "reactjs",
+    "spa"
+  ],
+  "private": true,
+  "author": "@fr3d3rico",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "dev": "nodemon ./bin/www.babel.js",
+    "sart": "node ./bin/www"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "^4.15.2",
+    "jade": "~1.11.0",
+    "mongoose": "^4.9.4",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "~1.8.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "serve-favicon": "~2.4.2",
+    "webpack": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
