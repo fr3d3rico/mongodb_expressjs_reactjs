@@ -17,7 +17,11 @@
   "scripts": {
     "webpack": "webpack",
     "dev": "nodemon ./bin/www.babel.js",
-    "sart": "node ./bin/www"
+    
+    "build": "webpack",
+    
+    "start": "node ./bin/www",
+    "prestart": "npm run build"
   },
   "dependencies": {
     "babel-core": "^6.24.1",
